@@ -1,6 +1,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header{
@@ -24,19 +25,19 @@ header{
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-ul{
+.header-right{
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-ul li{
+.header-right li{
   padding-left: 20px;
   list-style: none;
 }
 
-li a {
+.header-right li a {
   color: rgb(255, 251, 0);
   text-decoration: none;
   font-size: 20px;
@@ -45,7 +46,7 @@ li a {
   border-radius: 6px;
 }
 
-li a:hover{
+.header-right li a:hover{
   color: rgb(77, 77, 77);
   background-color: rgb(255, 251, 0);
 }
@@ -102,3 +103,24 @@ li a:hover{
 }
 
 
+footer {
+  background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+  padding: 24px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer li{
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer img{
+  width: 100%;
+  height: 100%;
+}
